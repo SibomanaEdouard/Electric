@@ -2,7 +2,6 @@ package SUPERMENU.BACKEND_SERVICE.Controllers;
 
 
 import SUPERMENU.BACKEND_SERVICE.Dto.RegisterVehicleDto;
-import SUPERMENU.BACKEND_SERVICE.Models.Vehicle;
 import SUPERMENU.BACKEND_SERVICE.Response.ApiResponse;
 import SUPERMENU.BACKEND_SERVICE.ServiceImpl.VehicleServiceImpl;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -10,7 +9,6 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
