@@ -38,7 +38,7 @@ public class OpenAPIConfig {
     public GroupedOpenApi userApi() {
         return GroupedOpenApi.builder()
                 .group("Users")
-                 .pathsToMatch("/api/v1/users/**")
+                 .pathsToMatch("/api/v1/**")
                 .build();
     }
 }

@@ -8,7 +8,6 @@ import SUPERMENU.BACKEND_SERVICE.Models.User;
 import SUPERMENU.BACKEND_SERVICE.Response.ApiResponse;
 import jakarta.servlet.http.HttpServletRequest;
 
-import java.util.List;
 
 public interface UserService {
     ApiResponse<Object> createAccount(RegisterUserDto dto) throws  Exception;
